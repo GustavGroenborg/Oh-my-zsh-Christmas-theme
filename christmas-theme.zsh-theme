@@ -1,5 +1,5 @@
 local ret_status="%(?:%{$FG[126]%}🎅 :%{$FG[084]%}🦌 %s)"
-RPROMPT='🤶'
+RPROMPT='🦌'
 
 PROMPT='$ret_status %{$FG[064]%}%2~ $(git_prompt_info)%{$reset_color%}%{$reset_color%}'
 
